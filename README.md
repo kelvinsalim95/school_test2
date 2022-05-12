@@ -13,7 +13,7 @@ This Project is using python version `3.8`
 2. Run `pipenv install` on project level
 
 
-## To Start Project
+## TO START PROJECT
 1. Create `.env` file and put your credential there needed credential are: `DB_NAME`, `DB_USER`, `DB_PASSWORD`, `DB_HOST`, `DB_PORT`
 2. Run `/manage.py showmigrations` to check table that will be created
 3. Run `/manage.py makemigrations` to make sure you have the latest migration script
@@ -21,11 +21,11 @@ This Project is using python version `3.8`
 5  Run `./manage.py runserver or python manage.py runserver` to start server and visit http://127.0.0.1:8000/
 
 
-## To run testscript
+## TO RUN TEST SCRIPT
 1. run `pytest --cov=.`
 
 
-## Edge Cases
+## EDGE CASES
 1. Error Handling still not correct
 
 
